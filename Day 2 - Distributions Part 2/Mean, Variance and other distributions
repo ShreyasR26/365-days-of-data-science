@@ -1,0 +1,52 @@
+                                                                            Distributions Part 2
+                                                                            
+                                                                                  Mean
+                                                                  There are two types of mean:
+                                                                  1. Exact mean
+                                                                  2. Estimated mean
+                                                                  
+                                                      The estimated mean is used more often because the sample is usually too large to
+                                                      calculate the exact mean. The estimated mean (or expected mean) is calculated from 
+                                                      the normal distribution. The x-axis of the highest point in the distribution is
+                                                      the mean of the population.
+                                                      
+                                                      Check Figure 2.1 - Expected mean
+                                                      
+                                                                               Variance
+                                                      Variance is calculated by:
+                                                           var = sum(x-mu)^2/n, where n is the sample
+                                                           
+                                                           for expected variance,
+                                                           var = sum(x-*x)^2/n-1
+                                                           
+                                                           n-1 is used because of possible decrease in the sum, due to the expected mean
+                                                           and not exact mean.
+                                                           
+                                                     We calculate standard deviation because in variance, we square all numbers so as to not
+                                                     get negative numbers. Dividing by n may under estimate the variance.
+                                                     SD = root(var)
+                                                     
+                                                     n-1 explaination:
+                                                     Taking different values for the mean, we can plot a graph of varince vs mean and see that the lowest point 
+                                                     for variance i.e the mean is the lower in the case of expected mean. i.e the sum(individual variance).
+                                                     
+                                                     Check Figure 2.2 - n-1
+                                                     
+                                                     Take the derivate at the smallest point (0) and find the estimated average, since derivative is used to find the
+                                                     minima, we have sum(x-X)/(n-1) < sum(x-mu)/n.
+                                                     
+                                                     Check Figure 2.3 - Derivative
+                                                     
+                                                     Statistical Model:
+                                                     A model is essentially a relationship or an equation. Model is approximation of real data.
+                                                     
+                                                     Figure 2.4 - Model
+                                                     
+                                                     Next(Day 3) : Different types of distributions.
+                                                   
+                                                     
+                                                     References:
+                                                     Statquest : https://www.youtube.com/watch?v=sHRBg6BhKjI&t=0s
+                                                     Statquest : https://www.youtube.com/watch?v=SzZ6GpcfoQY&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9&index=5
+                                                     
+                                                         
