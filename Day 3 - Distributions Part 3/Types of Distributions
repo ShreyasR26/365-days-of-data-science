@@ -1,0 +1,79 @@
+                                                                           Types of distributions
+                                                                           
+                                   
+                                                                             Probability basics
+                                                                             
+                                                                       1. Probability Mass Function
+                                                                       
+                                                            Random Variable: Numeric outcome of an experiment can be discrete
+                                                                             or continuous.
+                                                            We can pick up a random sample from a population.
+                                                            Eg: Outcome of coin toss 
+                                                         PMF corresponds to a probability that a random variable takes a value.
+                                                         PMF >= 0
+                                                         Sum of PMFs should be 1.
+                                                         
+                                                         The PMF corresponds to a discrete random variable.
+                                                         The Probability Density Function (PDF) corresponds to a continuous random variable.
+                                                         
+                                                         2. Cumulative  Distribution Function (CDF)
+                                                         Returns the probability of a random variable being less than or equal to a certain 
+                                                         value.
+                                                         P(X<=x)
+                                                         
+                                                         3. Survival Function
+                                                         1-CDF
+                                                         
+                                                         4. Conditional Probability
+                                                         
+                                                         P(A|B) = P(A (intersection) B)/ P(B)
+                                                         
+                                                         5. Baye's theorem
+                                                         P(A|B) = P(B|A) * P(A) / (P(B|A)*P(A) + P(B|A^)*P(B))
+                                                         In medical statistics,
+                                                         Sensitivity = P(+|D) (Positive given patient has disease)
+                                                         Specificity = P(-|D^) (Negative given patient doesn't have disease)
+                                                         
+                                                         
+                                                                        Probability Distribution
+                                                  1. Discrete
+                                                  2. Continuous
+                                                  
+                                                  The Normal Distribution is a Continuous distribution
+                                                  
+                                                  Discrete Distribution:
+                                                  1. Equiprobable Distribution
+                                                  Picking 1 card from a deck (1/52)
+                                                  Picking 1 number from a dice. (1/6)
+                                                  
+                                                  2. Bernoulli Distribution
+                                                  
+                                                  Only 2 values, True or False.
+                                                  
+                                                  
+                                                 3. Binomial Distribution
+                                                 Multiple Bernoulli
+                                                 eg: Tossing n coins
+                                                 
+                                                 4. Poisson Distribution
+                                                 How unusual an event is for a particular distribution.
+                                                 eg: LeBron averages 35ppg for a season, probability of him scoring 12 points in the 1st quarter:
+                                                 P(12).
+                                                 
+                                                 Continuous Distribution:
+                                                 1. Student T
+                                                 2. Chi- squared
+                                                 3. Exponential
+                                                 4. Logistic
+                                                 
+                                                 Check Images for reference.
+                                                 
+                                                 Next : Hypothesis Testing, P-values
+                                                 
+                                                 References:
+                                                 1. Coursera - Data Science Specialization, John Hopkins University
+                                                 2. Udemy - Career 365 Data Science
+                                                
+                                                 
+
+2.
