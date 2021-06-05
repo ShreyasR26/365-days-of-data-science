@@ -1,0 +1,41 @@
+                                                                              Hypothesis Testing
+                                                                              
+                                   Lets say we are making a drug to cure a "certain" virus. Let there be 2 drugs A and B,
+                                   Lets say A on average takes 12 hrs to recover and B on average takes 15 hrs to recover.
+                                   We can now call our hypothesis,"A can recover a patient faster than B".
+                                   
+                                   Check Figure 4.1 A vs B
+                                   
+                                   Now continue the tests on different samples and we realize the B on average takes less time
+                                   to recover than A does. Do this again and again, and we see that B still takes less time than A.
+                                   
+                                   Check Figure 4.2 Multiple Testing
+                                   Check Figure 4.3 Double Checking
+                                   
+                                   Now we can therefore, reject the hypothesis.
+                                   
+                                   Now take 2 drugs C and D. C on average takes 12 hrs to cure and D on average takes 15 hrs to cure.
+                                   Now we can call our hypothesis "C can recover a patient faster than D".
+                                   
+                                   After multiple tries, we find that the time varies, but overall C recovers a patient faster than D.
+                                   Therefore, we can "fail to reject the hypothesis".
+                                   
+                                   Check Figure 4.4 Confirming Hypothesis
+                                   
+                                   If the tests are completly different from the hypothesis, we can reject the hypothesis, but if the 
+                                   tests aren't different enough from the hypothesis, then we can only fail to reject the hypothesis.
+                                   Note: Fail to reject often happens due to randomness.
+                                   
+                                                                   Null Hypothesis
+                                                                   
+                                   Consider drug E and drug F and lets say we take a hypothesis saying drug E takes about the same time to recover as
+                                   drug F. Then, we test on a large sample size and either reject or fail to reject the Null Hypothesis. 
+                                   Note: Null Hypothesis is taken before any testing.
+                                   
+                                                                    Alternative Hypothesis
+                                    
+                                    We run a statistical test, for that, we need 1. Data 2. A null hypothesis 3. An alternative Hypothesis
+                                    In this case, the alternative hypothesis is simply the opposite of the null hypothesis.
+                                    
+                                    Note: We can't always fully accept an alternative hypothesis because there might be an alternate to that as well
+                                    we can reject a null hypothesis in favour of an alternative hypothesis.
