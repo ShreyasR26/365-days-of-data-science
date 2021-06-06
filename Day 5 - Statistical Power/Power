@@ -1,0 +1,32 @@
+                                                                   Power
+                                                         
+                                                     Power is the probability of correcty rejecting null hypothesis.
+                                                     Power is the probability of getting a small p-value.
+                                                     
+                                                     Check Figures for clarity
+                                                     
+                                                     Power Analysis
+                                                     
+                                                     p-hacking
+                                                     Giving drugs to 2 sets of people, and after we get a p-value around 0.06(can't reject), we expand the
+                                                     data set by giving more to the two sets, this is p-hacking and it needs to be avoided.
+                                                     
+                                                     We can do a power analysis instead. A power analysis what sample will ensure high probability
+                                                     that we correctly reject the null hypothesis. With power analysis, we know that regarless of
+                                                     p-value, we have enough data to make an informed decision.
+                                                     
+                                                     Factors of power:
+                                                     1. How much overlap exists between 2 distributions/datasets of study.
+                                                     2. Sample size, no. of measurements we collect from each group.
+                                                     
+                                                     Good power is 0.8, 80% probability of rejecting the null hypothesis.
+                                                     
+                                                     Effect size(d) = estimated distance in population mean/pooled estimated standard deviation => root(s1^2 + s2^2)/2
+                                                     
+                                                     We can use power, d and threshold(0.05) and go to statistic power calculator (google) and find the
+                                                     sample size.
+                                                     
+                                                     Up next: Covariance
+                                                     
+                                                     Reference :
+                                                     Statquest: https://youtu.be/VX_M3tIyiYk
