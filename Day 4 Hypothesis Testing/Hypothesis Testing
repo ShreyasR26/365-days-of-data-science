@@ -39,3 +39,32 @@
                                     
                                     Note: We can't always fully accept an alternative hypothesis because there might be an alternate to that as well
                                     we can reject a null hypothesis in favour of an alternative hypothesis.
+                                    
+                                                                              
+                                                                              p-values
+                                   Lets take 2 drugs A and B and give them to 1 person each, person who took A recovers but person who took B didn't.
+                                   This isn't enough to conclude that A is a better drug than B. Now we can try on 2 people each,both the patients who
+                                   took drug A recovered but only 1 patient recovered from drug B. This also isnt enough to conclude that there is a 
+                                   difference between the drugs. But if we give each drug to 1000 people each, and say drug A has a 99.5% success rate
+                                   and drug B has a 0.01% success rate. Now we can confidently say drugs A and B are different.
+                                   But if A is 37% effective and B is 29%, what do we do?
+                                   This is where p-values come in. 
+                                   p-values are used to measure the confidence on the Null-hypothesis, here it is the fact that A is different from B.
+                                   If p-value is closer to 1, then we reject the null hypothesis.
+                                   General standardized threshold is 0.05, but may wary depending on the type of data.
+                                   Note: p-values don't tell us how different the 2 drugs are, it just tells us the confidence of the hypothesis.
+                                   
+                                   How to calculate p-values:
+                                   Consider the event of fliping a coin twice and getting 2 heads. My null hypothesis is: "my coin is not biased"
+                                   p-values are calculated by :
+                                   1. probability of getting the event by random chance (0.25)
+                                   2. probability of getting something equally rare (0.25, two tails)
+                                   3. probability of getting something extremely rare. (0 in this case)
+                                   p = 0.25 + 0.25 + 0 = 0.5
+                                   therefore, p-value > 0.5, so we fail to reject my null hypothesis.
+                                   
+                                   Note: We add part 2 because we feel part 1 might be special, but not really because part 2 might be just as rare.
+                                   
+                                   p-value essentially tells us how unusal an event it, if p-values = 0.05, then 5% is attributed to randomness.
+                                  
+                                   
