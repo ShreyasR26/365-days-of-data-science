@@ -1,0 +1,56 @@
+                                                                          Covariance
+                                                                          
+                           Covariance is used to classify three types of relationships between 2 axes.
+                           
+                           1. A positive relationship 
+                                Check figure 6.2
+                                
+                           2. A negative relationship
+                                Check figure 6.3
+                                
+                           3. No relationship
+                                Check figure 6.4
+                                
+                           For example:
+                           mrna transcripts in 2 genes X and Y
+                           
+                           Check Figure 6.1
+                           
+                           Calculating covariance
+                           
+                           Check Figure 6.2
+                           
+                           If covariance is positive, that means it gives a positive slope between the relationships.
+                           
+                           Note: Covariance value never gives us how steep the curve is, it just tells us whether a slope is positive or negative.
+                           
+                                                                     
+                                                                           Correlation
+                                                                           
+                           Correlation is used to determine the relationship between 2 variables (example, genes X and Y)
+                           It is essentially used to quantify the strength of the relationship between 2 variables.
+                           Correlation: [-1,1]
+                           
+                           Check Figure : 6.6
+                           
+                           Note: when a straight line goes through the center of every data point, correlation is 1(positive slope)
+                                 here, the slope of the line doesn't matter.
+                           
+                           Note : When talking about correlation, we only talk about straight lines and not squiggly lines.
+                           
+                           While taking correlation, it is better to have a low p-value, more data, lower the p-value.
+                           
+                                                                 R-Squared
+                                                                 
+                          A easier way to interpret correlation. 
+                          
+                          Assume we have different mouse weights:
+                          
+                          Check Figure 6.8
+                          
+                          Now we can take the mean of all points and calculate how far each point is from the mean. The distance is squared
+                          because the points below the mean(negative) shouldn't cancel out the points above the mean.
+                          
+                          R-squared varies from 0-1
+                          
+                          High R-Squared means there is less variation around the line
