@@ -21,5 +21,13 @@
                                               The standard error is the standard deviation of the means collected from taking multiple samples in a distribution.
                                               
                                               We can calculate the standard deviation of various points in the graph and make a standard error chart.
-                                             
+                                              
+                                              Bootstrapping
+                                              In bootstrapping take 'n' random data points, take 1, note down the value and repeat for n.
+                                              
+                                              Note: while bootstrapping it's just 'n' random measurments, it's okay to reapeat.
+                                              
+                                              Now calculate mean/ median/ mode for these random measurments and calculate the standard error.
+                                              
+                                              References : Statquest
                                              
