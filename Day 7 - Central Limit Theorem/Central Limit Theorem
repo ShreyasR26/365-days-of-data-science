@@ -1,0 +1,25 @@
+                                                                               Central Limit Theorem
+                                                                               
+                                             Consider a uniform distribution going from 0 to 1
+                                             Check Figure 7.1 Uniform Distribution
+                                             
+                                             Now collect the means of various samples taken in this distrubution and make
+                                             a histogram of these means.
+                                             Check Figure 7.2 Collecting sample means
+                                             
+                                             We find these means to be normally distributed.
+                                              Check Figure 7.3 Normally Distributed means
+                                              
+                                              Now try with an exponential distribution, we get the same result for the means.
+                                              Check Figure 7.4 exponential distribution
+                                              
+                                              So it doesn't matter which distribution we use, the sample means is always a normal distribution.
+                                              
+                                              This is the central limit theorem.
+                                              
+                                              Standard Error
+                                              The standard error is the standard deviation of the means collected from taking multiple samples in a distribution.
+                                              
+                                              We can calculate the standard deviation of various points in the graph and make a standard error chart.
+                                             
+                                             
