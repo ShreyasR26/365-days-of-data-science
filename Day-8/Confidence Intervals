@@ -1,0 +1,33 @@
+                                                                        Confidence Intervals
+                                                                        
+                                                            A 95% confidence interval is just an interval that covers 95% of the means.
+                                                            
+                                                            Check Figure 8.1 Confidence Intervals
+                                                            
+                                                            For checking a confience interval, we first need to bootstrap the sample,
+                                                            then take the means taken in the bootstrapped sample and draw a line below 
+                                                            it that covers 95% of the means. A longer line will cover 99% of the means.
+                                                            
+                                                            The p-value of anything occuring outside the confidence interval <0.05, therefore,
+                                                            there is a significant difference.
+                                                            
+                                                            Check Figure 8.2 Confidence Intervals for sample mean
+                                                            
+                                                            Consider measuring the weights of male and female lions,here the bootstraps don't
+                                                            overlap, therefore we know there is a statistically significant difference between
+                                                            male and female lions.
+                                                            
+                                                            Check Figure 8.3 Confidence Intervals comparison
+                                                            
+                                                            Good Threshold for significance
+                                                            0.05 is an accepted as a good threshold in general.
+                                                            In some cases it's gonna be smaller.
+                                                            If p-value is small, but R-squared isn't good, it doesn't matter.
+                                                            
+                                                            T- tests
+                                                            
+                                                            T-tests checks if two means are reliably different from each other.
+                                                            Example: 2 people flip a coin 100 times each, person 1 gets 53 heads
+                                                            and person 2 gets 48 heads. This doesn't mean person 1 is more likely to
+                                                            get heads the next toss.
+                                                           
