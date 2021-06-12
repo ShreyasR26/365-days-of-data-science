@@ -1,0 +1,51 @@
+                                                                           Quantiles and Percentiles
+                                                                           
+                                                                           
+                                                                 Quantile is a point that splits data into groups.
+                                                                 The median is a quantile that splits the data
+                                                                 into 'upper half' and 'lower half'.
+                                                                 This quantile is labelled 50% or 0.5.
+                                                                 The 0.25 quantile has 25% data less than it.
+                                                                 The 0.75 quantile has 75% data less than it.
+                                                                 
+                                                                 Percentiles are quantiles that divide the data into
+                                                                 100 equally sized groups.
+                                                                 
+                                                                 Q-Q Plots
+                                                        We have a set of data points and want to determine
+                                                        whether this data is normally distributed.
+                                                        Step 1:
+                                                        Give each point its own quantile.
+                                                        
+                                                        
+                                                        
+                                                        Step 2:
+                                                        Give a normal curve for this data.
+                                                        Any normal curve would do.
+                                                        
+                                                        
+                                                        Step 3:
+                                                        Draw all quantiles to the curve, similar to the data.
+                                                        Check Figure 9.2 Quantiled to curve
+                                                        
+                                                        Step 4:
+                                                        Plot Q-Q graph.
+                                                        
+                                                        Draw a line to the Q-Q plot and check how good the fit is.
+                                                        If the fit isn't great, try a uniform distribution as
+                                                        opposed to a normal distribution.
+                                                        
+                                                        Q-Q Plots determine which distribution matches our data best.
+                                                        
+                                                        Quantile Normalization
+                                                        
+                                                        Keep the data normalized and make a separate plot for this data,
+                                                        take the mean of every sample and keep a standardized plot for
+                                                        all the means and keep this as a new plot of standardized values.
+                                                        
+                                                        Check Figure 9.4 Quantile Normalized
+                                                        
+                                                        Up next : Probability vs Likelihood part 1
+                                                        
+                                                        References:
+                                                         Stat quest : https://youtu.be/ecjN6Xpv6SE
