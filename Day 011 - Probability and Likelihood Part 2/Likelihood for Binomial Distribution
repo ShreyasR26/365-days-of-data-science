@@ -1,1 +1,19 @@
-
+                                                                         Likelihood for binomial distribution
+                                                                         
+                                                  Likelihood of a binomial distribution is the probability of a particular event in a binomial 
+                                                  distribution is *a certain probability*.
+                                                  Eg: Probability of 4 people prefering grape fanta over orange fanta in a group of 7 is 0.5,
+                                                  this is the likelihood.
+                                                  Check figure 11.1 for binomial formula
+                                                  Check figure 11.2 for likelihood of binomial function
+                                                  
+                                                                               Odds and Logs
+                                                                               
+                                                  Odds of my team winning are 1 to 4, that means in 5 games, they may win 1 game, but lose 
+                                                  in 4.
+                                                  Odds is ratio of my team winning to my team losing.
+                                                  Probability is chance of team winning to all possible outcomes.
+                                                  
+                                                  
+                                                 
+                                                  
