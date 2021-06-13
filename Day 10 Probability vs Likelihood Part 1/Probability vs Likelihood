@@ -1,0 +1,39 @@
+                                                                         Probability vs Likelihood
+                                                                         
+                                                                         
+                                                Check Figure 10.1 Probability in Normal Distribution
+                                                
+                                                The probability of a certain section in a normal distribution is the area under the 
+                                                curve for that section divided by the total area under the curve.
+                                                
+                                                Likelihood are y-axis values in a normal distribution for a distinct point
+                                                on the x-axis.
+                                                
+                                                Eg: Likelihood of getting the mean of a distribution is pretty high
+                                                
+                                                Check Figure 10.2 Likelihood in Normal Distribution
+                                                
+                                                                     Maximum Likelihood
+                                                                     
+                                                Suppose we have the heights of lions, and we find a way to spread this data in a
+                                                normal distribution, to find the center of this distribution, we find the likelihood
+                                                of various points (individual lions), then we plot a graph for the various likelihoods
+                                                Check 10.3 Likelihood of graphs
+                                                
+                                                From this, we can find maximum likelihood estimates for the mean. We can do the same
+                                                for standard deviation.
+                                                
+                                                Check Figure 10.4  Likelihood graphs for standard deviation
+                                                
+                                                         Maximum Likelihood for exponential distribution
+                                                         
+                                                 An exponential distribution is a distribution that models time between events.
+                                                 
+                                                 y = lambda (e^(-lambda*x))
+                                                 lambda is the rate parameter. If lambda = 1, this event happens once a second.
+                                                 x1 is the time passed between 1st and 2nd event.
+                                                 x2 is the time passed between 2nd and 3rd event.
+                                              
+                                              Check Figure 10.5 and 10.6 for formulae
+                                              
+                                              
