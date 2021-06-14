@@ -1,0 +1,52 @@
+The SQL WHERE Clause
+The WHERE clause is used to filter records.
+
+It is used to extract only those records that fulfill a specified condition.
+
+SELECT * FROM Customers
+WHERE Country='Mexico';
+
+SELECT * FROM Customers
+WHERE CustomerID=1;
+
+Operators in where clause:
+Operator	Description	Example
+=	Equal	
+>	Greater than	
+<	Less than	
+>=	Greater than or equal	
+<=	Less than or equal	
+<>	Not equal. Note: In some versions of SQL this operator may be written as !=	
+BETWEEN	Between a certain range	
+LIKE	Search for a pattern	
+IN	To specify multiple possible values for a column
+
+Example in IN
+SELECT * FROM Customers
+WHERE City IN ('Paris','London');
+
+Example for LIKE
+SELECT * FROM Customers
+WHERE City LIKE 's%';
+
+AND, NOT and OR opertors
+
+AND
+SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';
+
+OR
+SELECT * FROM Customers
+WHERE City='Berlin' OR City='München';
+
+NOT
+SELECT * FROM Customers
+WHERE NOT Country='Germany';
+
+Combining AND, OR and NOT
+SELECT * FROM Customers
+WHERE Country='Germany' AND (City='Berlin' OR City='München');
+
+SELECT * FROM Customers
+WHERE NOT Country='Germany' AND NOT Country='USA';
+
