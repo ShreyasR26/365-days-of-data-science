@@ -24,7 +24,9 @@ The following SQL statement selects all customers from the "Customers" table, so
 and the "CustomerName" column. This means that it orders by Country, but if some rows have the same Country, 
 it orders them by CustomerName:
 
-
+3.
+ORDER BY 2,3
+Order by 2nd or 3rd column
 
 INSERT INTO
 
@@ -32,6 +34,13 @@ The INSERT INTO statement is used to insert new records in a table.
 
 INSERT INTO Syntax
 It is possible to write the INSERT INTO statement in two ways:
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+or
+
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
 
 1. Specify both the column names and the values to be inserted:
 INSERT INTO table_name (column1, column2, column3, ...)
