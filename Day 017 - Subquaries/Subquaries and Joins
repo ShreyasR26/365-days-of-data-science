@@ -1,0 +1,56 @@
+                                                                   Subquaries
+                                                                   
+                 Quaries embedded into other quaries.
+                 
+ SQL JOIN
+A JOIN clause is used to combine rows from two or more tables, 
+based on a related column between them.
+
+Examples:
+1.Using a subquery, find the names of all the tracks for the album "Californication".
+select tracks.name
+from tracks left join albums
+on tracks.albumid = albums.albumid
+where albums.title = 'Californication'
+
+2. Find the total number of invoices for each customer along with the customer's full name, city and email.
+select count(c.invoiceid), c.firstname, c.lastname, c.email
+from (select *
+      from invoices left join customers
+      on invoices.customerid = customers.customerid) as c
+groupby c.lastname
+
+3. Retrieve the track name, album, artistID, and trackID for all the albums.
+select tracks.name, albums.artistid,tracks.trackid,albums.title
+from albums left join tracks
+where tracks.trackid = 12
+
+4. Retrieve a list with the managers last name, and the last name of the employees who report to him or her.
+select a.LastName as EmployeeLast,a.ReportsTo,b.LastName as ManagerLast
+from Employees as a
+left join Employees as b
+on a.ReportsTo=b.EmployeeId
+
+5. Find the name and ID of the artists who do not have albums. 
+select a.Name,count(a.Name)
+from
+(select Artists.ArtistId,Artists.Name,Albums.AlbumId
+from Artists
+left join Albums
+on Artists.ArtistId=Albums.ArtistId
+where Albums.AlbumId is null) as a
+group by a.Name
+order by count(a.Name) asc
+
+6. Use a UNION to create a list of all the employee's and customer's first names and last names ordered by the last name in descending order.
+select FirstName, LastName from Employees
+union
+select FirstName,LastName from Customers
+order by LastName desc
+
+7. See if there are any customers who have a different city listed in their billing city versus their customer city.
+select *
+from (select *
+      from customers left join invoices
+      on customers.customerid = invoices.customerid) as c
+where c.billingcity <> c.city
