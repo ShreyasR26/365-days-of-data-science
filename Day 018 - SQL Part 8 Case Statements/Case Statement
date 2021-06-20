@@ -1,0 +1,43 @@
+                                                                                Case Statement
+                                                                                
+                                                                       
+                                                                       CASE 
+                                                                       WHEN C1 THEN E1
+                                                                       WHEN C1 THEN E2
+                                                                       
+                                                                       ELSE [return else]
+                                                                       END
+                                                                       
+                                                                       If we want to classify cities as
+                                                                       Bangalore or not Bangalore
+                                                                       
+                                                                       SELECT * 
+                                                                       CASE City
+                                                                       WHEN 'Bangalore' THEN 1
+                                                                       ELSE 0
+                                                                       FROM Table
+                                                                       
+                                                                       Helpful for one hot encoding
+                                                                       
+                                                                       Check figure 1: Case statement example
+                                                                       
+                                                                       Example:
+                                                                       SELECT OrderID, Quantity,
+                                                                       CASE WHEN Quantity > 30 THEN 'The quantity is greater than 30'
+                                                                       WHEN Quantity = 30 THEN 'The quantity is 30'
+                                                                       ELSE 'The quantity is under 30'
+                                                                       END AS QuantityText
+                                                                       FROM OrderDetails;
+                                                                       
+                                                                       
+                                                                       CASE Statement in ORDER BY:
+                                                                       SELECT CustomerName, City, Country FROM Customers
+                                                                       ORDER BY (CASE
+                                                                       WHEN City IS NULL THEN Country
+                                                                       ELSE City
+                                                                       END);
+                                                                       
+                                                                       
+                                                                       
+                                                                       
+                                                                       
