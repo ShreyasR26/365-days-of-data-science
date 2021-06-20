@@ -1,0 +1,40 @@
+                                                                         Texts
+                                                                         
+                                                                        
+                                                                        
+                                                             1. Concatenate
+                                                      SELECT companyname || '('|| contact name||')'
+                                                      FROM customers
+                                                      
+                                                     Note: SQL Server uses + instead of || for concatenate
+                                                     
+                                                     2. TRIM
+                                                     SELECT TRIM('   Your are the best!  ') AS trimstring
+                                                     removes trailing spaces
+                                                     RTRIM
+                                                     LTRIM
+                                                     
+                                                     3. Substring (SUBSTR)
+                                                     SELECT first_name SUBSTR(firstname,2,3)
+                                                     firstname: string, 2: from 2nd character, 3: 3 characters
+                                                     
+                                                     4. UPPER, LOWER
+                                                     SELECT UPPER(firstname)
+                                                     SELECT LOWER(firstname)
+                                                     
+                                                     5. Date and Time Strings
+                                                     Check : SQL Date and Time Format
+                                                     
+                                                     6. String Format Time Function
+                                                     (STRFTIME)
+                                                     SELECT Birthday
+                                                     STRFTIME('%Y',Birthday) AS Year
+                                                     STRFTIME('%m',Birthday) AS month
+                                                     STRFTIME('%d',Birthday) AS day
+                                                     FROM Table
+                                                     
+                                                     SELECT DATE('now')
+                                                     To get current date
+                                                     %H,%M,%S,%s
+                                                     Hours, Minutes, Seconds, millisecond
+                                                     
