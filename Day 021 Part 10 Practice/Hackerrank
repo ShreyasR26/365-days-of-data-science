@@ -33,6 +33,19 @@ Write a query to print the hacker_id, name, and total score of the hackers order
 If more than one hacker achieved the same total score, then sort the result by ascending hacker_id. 
 Exclude all hackers with a total score of  from your result.
 
+
+
+
+5. Problem:
+Placements challenge
+https://www.hackerrank.com/challenges/placements/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+Select S.Name
+From ( Students S join Friends F on S.id = F.id
+       join Packages P1 on S.ID=P1.ID
+       join Packages P2 on F.Friend_ID=P2.ID)
+Where P2.Salary > P1.Salary
+Order By P2.Salary;
+
 SELECT h.hacker_id, h.name, sum(maximum) as total_score
 FROM hackers as h
 LEFT JOIN
