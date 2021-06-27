@@ -1,0 +1,123 @@
+1. If, elif, else statement:
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+  
+  2. Conditional If
+  a = 200
+b = 33
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
+  
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")
+  
+3. Nested If
+ x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+    
+ 4. Pass Statement
+(to avoid pass)
+a = 33
+b = 200
+
+if b > a:
+  pass
+  
+  
+5. While loop
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+  
+The break Statement
+With the break statement we can stop the loop even if the while condition is true:
+
+Example
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
+  
+The continue Statement
+With the continue statement we can stop the current iteration, and continue with the next:
+
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+  
+  The else Statement
+With the else statement we can run a block of code once when the condition no longer is true:
+
+Example
+Print a message once the condition is false:
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+  
+  
+5. For Loops
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  
+  Looping Through a String
+Even strings are iterable objects, they contain a sequence of characters:
+
+for x in "banana":
+  print(x)
+  
+  The break Statement
+With the break statement we can stop the loop before it has looped through all the items:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+   
+ The range() Function
+To loop through a set of code a specified number of times, we can use the range() function,
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+
+Example
+for x in range(6):
+  print(x)
+  
+  or
+  for x in range(2, 6):
+  print(x)
+  
+  Nested Loops:
+  adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
