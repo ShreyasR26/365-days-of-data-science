@@ -20,3 +20,45 @@ fh = open(fname)
 fh_read=fh.read()
 print(fh_read.upper().rstrip())
 
+Lists
+
+A list is a group of variables or constants
+s = ['a','b','c']
+t = [1,2,3]
+u = [1,[2,3],4]
+
+looping through a list
+for i in s:
+  print(i)
+  
+  Manipulating Lists
+  Manipulating lists is very similar to manipulating strings
+  s[2:4]
+  s[:4]
+  
+  stuff = list()
+  stuff.append('book')
+  stuff.append(99)
+  
+  sort the list using list.sort()
+  
+  str = 'Anything is Possible'
+  str.strip()
+  print(len(str))
+  3
+  
+  Open the file romeo.txt and read it line by line. For each line, split the line into a list of words using the split() method. 
+  The program should build a list of words. For each word on each line check to see if the word is already in the list and if not append it to the list.
+  When the program completes, sort and print the resulting words in alphabetical order.
+  fname = input("Enter file name: ")
+fh = open(fname)
+lst = list()
+for line in fh:
+    line_split=line.split()
+    for words in line_split:
+        if words not in lst:
+            lst.append(words)
+lst.sort()
+print(lst)
+
+
