@@ -1,0 +1,52 @@
+                                                    String
+                                                    
+                          fruit = 'banana'
+                          letter = fruit[1] => a
+                          x=3
+                          w = fruit[x-3] => n
+                          
+                          fruit[8] => error
+                          
+                          print(len(fruit)) => 6
+                          
+                          Looping through strings
+                          fruit = 'banana'
+                          index = 0
+                          while index < len(fruit) :
+                             letter = fruit[index]
+                             print(index,letter)
+                             index++
+                             
+                       .lstrip => removes white spaces towards the left
+                       .rstrip => removes white spaces towards the right
+                       
+                       .strip() => remove white spaces
+                       
+                       .startswith() => returns a true/false
+                       print(s[:])
+                       => banana
+                       
+                       a = 'Hello'
+                       b = 'There'
+                       a + b = HelloThere
+                       .lower() => Makes lowercase
+                       .upper() => Makes Uppercase
+                       
+                       dir() gives all functions possible with string
+                       
+                       find() finds a position of a letter in a string
+                       
+                       Write code using find() and string slicing (see section 6.10) to extract the number at the end of the line below. 
+                       Convert the extracted value to a floating point number and print it out.
+                       text = "X-DSPAM-Confidence:    0.8475";
+                       pos=text.find('0')
+                       tim=text[pos:pos+6]
+                       f_l=float(tim)
+                       print(f_l)
+                       
+                       Source: Coursera Python for data structures
+                       
+                              
+                          
+                          
+                          
