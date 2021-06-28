@@ -1,0 +1,121 @@
+                                                             Dictionaries and Tuples
+                                                             
+              Dictionaries are memory based key values.
+              
+              Example:
+              Purse = dict()
+              purse['money'] = 12
+              purse['candy'] = 3
+              purse['tissues'] = 15
+              print(purse)
+              {'money' : 12 , 'candy' : 3, 'tissues' : 15}
+              Dictionary contents are mutable which means they can be updated
+              
+              Note: Dictionaries don't have an order unlike lists
+              
+              Check image 28.1 for checking how to loop through a dictionary.
+              
+              1. The get() function:
+              There is also a method called get() that will give you the same result:
+
+             Example
+             Get the value of the "model" key:
+
+             x = thisdict.get("model")
+             
+             Getting dictionary keys:
+             car = {
+                   "brand": "Ford",
+                   "model": "Mustang",
+                   "year": 1964
+                    }
+
+                  2. x = car.keys()
+
+                 print(x) #before the change
+
+                 car["color"] = "white"
+
+                 print(x) #after the change
+                
+                 3. values()
+                 
+                 The values() method will return a list of all the values in the dictionary.
+                 x = thisdict.values()
+                 
+                 4. Update a dictionary
+                 The update() method will update the dictionary with the items from the given argument.
+
+                 The argument must be a dictionary, or an iterable object with key:value pairs.
+
+                 Example
+                 Update the "year" of the car by using the update() method:
+
+                 thisdict = {
+                 "brand": "Ford",
+                 "model": "Mustang",
+                 "year": 1964
+                   }
+                 thisdict.update({"year": 2020}) 
+                 
+                 5. Adding items to a dictionary
+                 
+                 thisdict = {
+                 "brand": "Ford",
+                 "model": "Mustang",
+                 "year": 1964
+                  }
+                 thisdict["color"] = "red"
+                 print(thisdict)
+                 
+                 6. Removing items from a dictionary
+                 thisdict = {
+                "brand": "Ford",
+                "model": "Mustang",
+                "year": 1964
+                 }
+                 del thisdict["model"]
+                 print(thisdict)
+                 
+                 7. Clear
+                 The clear() method empties the dictionary:
+
+                 thisdict = {
+                "brand": "Ford",
+                "model": "Mustang",
+                "year": 1964
+                 }
+                thisdict.clear()
+                print(thisdict)
+                
+                8. Looping through dictionaries
+                https://www.w3schools.com/python/python_dictionaries_loop.asp
+                
+                Check figure 28.2 for various functions in dictionaries.
+                
+                9.  Example:
+                Write a program to read through the mbox-short.txt and figure out who has sent the greatest number of mail messages. 
+                The program looks for 'From ' lines and takes the second word of those lines as the person who sent the mail.
+                The program creates a Python dictionary that maps the sender's mail address to a count of the number of times they appear in the file. 
+                After the dictionary is produced, the program reads through the dictionary using a maximum loop to find the most prolific committer.
+                
+                name = input("Enter file:")
+if len(name) < 1 : 
+    name = "mbox-short.txt"
+handle = open(name)
+counts=dict()
+lst=list()
+for line in handle:
+    if line.startswith("From:"):
+        line=line.rstrip().split()
+        lst.append(line[1])
+for big in lst:
+      counts[big]=counts.get(big,0)+1
+bigword=None
+bigcount=None
+for big,ct in counts.items():
+    if bigcount is None or ct>bigcount:
+        bigword=big
+        bigcount=ct
+print(bigword,bigcount)
+    
