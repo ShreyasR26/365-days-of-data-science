@@ -1,0 +1,26 @@
+                                                                       More on Statistics
+                                                                       
+          More on statistics from the Basic Statistics course from the University of Amsterdam.
+          
+          Z-Scores:
+          
+          A Z-score is the number of standard deviations removed from the mean.
+          Z-Scores are often used to standardize values.
+          
+          Formula to compute Z-scores:
+          (xi - mu)/(standard deviation)
+          where xi is the desired value.
+          
+          Make a Z-scores table for all values in the distribution.
+          In a normal distribution, 68% of the data lies in the first standard deviation of the mean, 95% of the data lies within the 2nd standard deviation of the mean.
+          
+          Z-scores tell us how extreme an observation is,
+          More positive Z-scores means, data is skewed towards the right and more negative Z-scores means data is skewed towards the left.
+          
+          Sum of all z-scores is always 0.
+          
+          Z-score of 1.72 means the particual value is 1.72 standard deviations away from the mean.
+          Z-score of 0.8 means the particual value is 0.8 standard deviations away from the mean and thus this value is more common than the one where we got 1.72.
+          
+          Sources: Basic Statistics from University of Amsterdam
+                   Krish Nayak (youTube) : https://www.youtube.com/watch?v=4Fta6KQ1QHQ
