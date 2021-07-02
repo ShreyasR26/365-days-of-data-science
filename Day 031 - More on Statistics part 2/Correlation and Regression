@@ -1,0 +1,39 @@
+                                    Correlation
+                                    
+                           2 ways to measure correlation:
+                           1. Cross table
+                           2. Scatter Plot
+                           
+                           Check Figures 31.1, 31.2, 31.3
+                           
+                           Regression
+                           
+                           Regression tells us about the linear correlation between 2 variables.
+                           
+                           Residuals are the distance between the point and the regression line.
+                           
+                           Take the sum of residuals and square them and find the sum. The one with the minimum sum of squares should be taken as the regression line.
+                           
+                           
+                           This is clled ordinary least squared regression.
+                           
+                           Equation for regresson
+                           
+                           y = a + bx
+                           a => the coeff touching y-axis of the regression line
+                           b => slope of the line
+                           
+                           r^2 tells us how well a line predicts the value of a certain dependent variable.
+                           
+                           r^2 = 0.7 means the regression error is 70% smaller using the regression line than the mean.
+                           
+                                                   Caveats
+                                                   
+                               Even if there is a high correlation between 2 variables, we can never predict a causal relationship
+                               between the two.
+                               
+                               For example, people who eat more chocolate tend to have a higher body weight, however, it could be the case where
+                               people with higher body weight are generally more hungry and therefore eat more chocolate.
+                               Causality could run in both ways as well.
+                               There could be other variables like genetics as well.
+                               
