@@ -1,0 +1,25 @@
+                                                                                 CI for mean
+                                                                                 
+                                               Revise CI from previous lectures.
+                                               
+                                               CI =
+                                                x^ +- 1.96(sigma)x
+                                                (sigma)x = (sigma)/root(n)
+                                      The mean is the population parameter, and the CI states that the probability of obtaining the population
+                                      parameter from the sample is 95%.
+                                      In other words take n number of samples and 95% of the population contains population mean.
+                                      
+                                      Note: At times we need to estimate the standard deviation in order to compute the population mean.
+                                      
+                                      To estimate sigma, we can use the T-distribution as opposed to a normal distribution.
+                                      
+                                      1.96 is the Z-score for the 95% CI.
+                                      
+                                      CI = x^ +- 1.96(estimated sigma)x
+                                      this estimation may contain an error, therefore we can use a T-distribution x^ = t95%(estimated sd).
+                                      
+                                                     CI for proportion and Confidence levels
+                                                     
+                                                     
+                                      
+                                                                         
