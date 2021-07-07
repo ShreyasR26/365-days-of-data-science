@@ -4,4 +4,15 @@
                                               We use descriptive and inferential statistics.
                                               
                                      Sample : We need a good representation of a sample, i.e which sample can get a good estimate of the whole population.
-                                     Note: Bigger sample is usually better, especially if it's random
+                                     Note: Bigger sample is usually better, especially if it's random.
+                                     Larger the sample, the higher likelihood of getting a normal distribution.
+                                     This is called sampling distribution of the sample mean.
+                                     
+                                     Central Limit Theorem:
+                                     The sampling distribution of the sample mean provided the sample is large enough is approximately a normal distribution.
+                                     Large enough sample: 30
+                                     
+                                     (sigma)x^ = (sigma)/root(n)
+                                     
+                                     '(sigma)x^' is the standard deviation of the sampling distribution.
+                                     sigma is the sd of population.
