@@ -1,0 +1,14 @@
+                                                                        Mean of CI
+                                                                        
+                                          One proportion:
+                                          x + t* s/root(n)
+                                          
+                                          Where t is the statistic from 't' distribution, s is sample sd and x is sample mean.
+                                          
+                                          Two Proportion:
+                                          xd + t* sd/root(n)
+                                          Take Sd and sample mean difference between the two variables,
+                                          for example, checking education level for twins.
+                                          
+                                           
+                                           
