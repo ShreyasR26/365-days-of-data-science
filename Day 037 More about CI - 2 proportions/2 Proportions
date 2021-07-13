@@ -1,0 +1,14 @@
+                                                                                Two Proportions
+                                                                                
+                                       Consider 2 subjects, maths and english, 37% of students took english and 53% took maths.
+                                       
+                                       To find the difference between the two, 
+                                       
+                                       p1^ - p2^ +- (Margin of error)
+                                       Margin of error is the sum of both standard errors (Error always add up.)
+                                       
+                                       The number of people who take maths are 13% - 24% higher than those who took english.
+                                       
+                                       Assumptions:
+                                       1. Both events are idependent
+                                       2. Sample size is large enough.
