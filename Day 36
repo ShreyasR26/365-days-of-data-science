@@ -1,0 +1,28 @@
+                                                                   Confidence intervals in python
+                                                                   
+                                          Calculating confidence intervals
+                                          
+                                          CI = Best Estimate +- Margin of error.
+                                          
+                                          Example : Taking a sample of how many parents have car seats for their kids.
+                                          
+                                          Best estimate is the number of "yes" reponses by the total sample.
+                                          
+                                          Margin of error is a standard error.
+                                          
+                                          p^ +- 1.96*sqrt(p^(1-p^)/n)
+                                          
+                                          This is a 95% confidence interval.
+                                          
+                                          For 99% confidence interval, use 2.576 instead of 1.96.
+                                          
+                                          The more confident we want to be, the wider our width.
+                                          
+                                          Conservative way of finding confience interval:
+                                          1. p^ +- 1/root(n) -> 95%
+                                          This way the CI is solely dependent on 'n'.
+                                          
+                                          2. For 99% :
+                                          n = (Z*/2* Margin of error) *2
+                                          Z* = 2.576
+                                          Margin of error = 3%
