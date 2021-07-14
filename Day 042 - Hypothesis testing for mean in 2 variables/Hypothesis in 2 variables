@@ -1,0 +1,12 @@
+                                                                        Hypothesis testing in 2 variables
+                                                                        
+                                                          H0 : mu1 - mu2 = 0
+                                                          Ha : mu1 - mu2 != 0
+                                                          alpha = 0.05
+                                                          
+                                                          t = (xd - 0)/sd/root(n)
+                                                          if p-values < 0.05, then we can reject the null hypothesis.
+                                                          
+                                                          
+                                                            
+                                              
