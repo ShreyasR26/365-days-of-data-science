@@ -1,0 +1,24 @@
+                                                                         Hypothesis testing 1 proportion
+                                                                         
+                                                     H0 -> 25% of Indians can speak English
+                                                     Ha -> >25% Indians can speak english
+                                                     
+                                                     Conditions, 
+                                                     1. Enough sample size
+                                                     (n*p and n*(1-p) = 10)
+                                                     
+                                                     2. Significance level : alpha = 0.05
+                                                     
+                                                     If we get 28% from the new sample, we can reject H0.
+                                                     
+                                                     Now, we take test statistic, i.e the best estimate and standard error.
+                                                     
+                                                     (p^ - p0)/ std error
+                                                     
+                                                     Null std error = s.e(p^) = root(p0.(1-p0)/n)
+                                                     
+                                                     Calculate p-value for Ha and keep that as alpha1.
+                                                     
+                                                     If alpha < alpha1 i.e 0.05<, then we can reject the null hypothesis.
+                                                     
+                                                     
