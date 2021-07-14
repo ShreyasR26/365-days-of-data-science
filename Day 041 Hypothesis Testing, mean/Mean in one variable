@@ -1,0 +1,27 @@
+                                                                   Testing Population Mean with confidence
+                                                                   
+                                        Step 1: Define Null and alternate hypothesis and set significance level -> usually 5%
+                                                Example: Take hypothesis mean say H0 = 80 and Ha> 80.
+                                        Step 2: Examine results and check summary. We can take the sample mean as 82.48, which
+                                                may not be significantly greater than H0. To find out whether this is significant,
+                                                find standard error of sample mean. sigma/root(n)
+                                                Now check test statistic, t:
+                                                t = (best estimate -  null value)/ estimated std error = (x^ - 80)/(s/(root(n))
+                                                t = (82.48 - 80)/15.06/(root(25)) = 0.82
+                                                
+                                                Therefore sample mean is only 0.82 standard deviations away from the mean.
+                                                
+                                        Step 3: Determine p-value
+                                                Now test the t=0.82 assuming null hypothesis is true, if it is true, t-statistic follows
+                                                Student-t distribution, degrees of freedom = n-1 = 25-1 = 24.
+                                                degrees of freedom determine how thick the ends are.
+                                                p-value = 0.21
+                                                
+                                        Step 4: Making a decision
+                                                We fail to reject the null hypothesis as p>0.05.
+                                        Step 5: Tie into range of 90% CI.
+                                                
+                                                
+                                                
+                                                
+                                              
