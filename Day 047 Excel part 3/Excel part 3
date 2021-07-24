@@ -1,0 +1,17 @@
+                                                                          Excel part 3
+                                                                          
+                                                   If we have a contiguous block of cells, ctrl + (->) or ctrl + (<-)
+                                                   will move about those block of cells.
+                                                   
+                                                   Shift + (arrows) will select multiple cells at a time.
+                                                   
+                                                   Press tab to shift active cells.
+                                                   
+                                                   Ctrl + (.) will go corner to corner of a selection.
+                                                   
+                                                   Ctrl + (shift) + (8) to select an entire block of cells.
+                                                   
+                                                   Ctrl + (home) goes to cell A1.
+                                                   
+                                                   Copy data, right click -> transpose.
+                                                   
