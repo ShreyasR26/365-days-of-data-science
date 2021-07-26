@@ -9,6 +9,14 @@
                                                           Relative =A3 (means only applicable to relative to the other cells)
                                                           
                                                           
+                                                                     Naming cells
+                                                                     
+                                                        Click on cell and on top right corner, write cell name.
+                                                        Can include cell name in formula.
+                                                        We can't name cells as R and C because they
+                                                        represent rows and columns respectively.
+                                                          
+                                                          
                                                             Reference:
                                                             
                                                             CU Boulder, Everyday Excel week 1
