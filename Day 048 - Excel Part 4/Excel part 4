@@ -1,0 +1,27 @@
+                                                                  Cell conditioning and formatting
+                                                                  
+                                               In cells, you can format each cell with bold, size and add borders using the home tab.
+                                               
+                                               In the borders tab, we can get a pencil to trace out a border in the cells.
+                                               
+                                               To put all the text in one cell, click on abc->, on the home tab.
+                                               
+                                               You can use merge and center to center up cells.
+                                               
+                                               Use cell formatting and conditional formatting for a particular gradient or 
+                                               making the cells normal.
+                                               
+                                               For auto-fill, write, the month/number/day etc.
+                                               For custom settings:
+                                               File -> Options -> Advanced -> custom settings 
+                                               
+                                               Use ctrl+ drag for alternate auto-fill option.
+                                               
+                                               For step values like 10,20,30 etc,
+                                               Home -> editing -> Fill -> series -> set to rows and columns, linear.
+                                               
+                                               For power, 1,2,4,8,16 etc
+                                               Home -> editing -> Fill -> series -> set to rows and columns, growth.
+                                               
+                                               Custom list:
+                                               File -> options -> advanced -> custom settings -> NEW -> Copy cells
