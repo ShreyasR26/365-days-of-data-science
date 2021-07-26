@@ -1,0 +1,14 @@
+                                                                   Excel part 6
+                                                                 
+                                                                 VBA Macros
+                                                                 
+                                                              Step 1: Install developer tab
+                                                              
+                                                   Go to file -> options -> Customize Ribbons -> developer tab (tick)
+                                                   Go to developer, record macro.
+                                                   Use relative referencing for recording macros for relative positions.
+                                                   Save as excel-macro-enabled-notebook.
+                                                   
+                                                   Personalization is possible in excel.
+                                                              
+                                                            
