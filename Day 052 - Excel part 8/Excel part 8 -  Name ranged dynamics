@@ -1,0 +1,44 @@
+                                                                       Name range function
+                                                                          
+                                                             =AVERAGE(A2:A12)
+                                                             =STDDEV(A2:A12)
+                                                             
+                                                             For appending the information,
+                                                             =OFFSET($A$2,0,0,count($A,$A),1)
+                                                             Syntax: (Starting point,row,column,height,weight)
+                                                             
+                                                             Put offset function in name manager.
+                                                             
+                                                             IF Statement
+                                                             
+                                                             =IF(B2 = 2, "Equals to 2","doesn't equal 2")
+                                                             
+                                                             AND Function
+                                                             
+                                                             =AND(FALSE,TRUE) -> FALSE
+                                                             
+                                                             OR Function
+                                                             
+                                                             =OR(FALSE,TRUE) -> TRUE
+                                                             
+                                                             COUNTIF AND SUMIF
+                                                             
+                                                             =COUNTIF($A$2:$A$12,H3)
+                                                             
+                                                             =SUMIF($A$2:$A$12,H3,F2:F12)
+                                                             
+                                                             UNIQUE Function can be used to get unique values,
+                                                             SORT function can be used to sort them.
+                                                             
+                                                             SUMIFS for multiple if statements.
+                                                             
+                                                             <> not =
+                                                             =AVERAGEIF(F2:F5,"<>9999")
+                                                             
+                                                              Flash fill:
+                                                              Data -> Data tools -> Flash fill
+                                                              Fills data accordingly
+                                                              
+                                                              References:
+                                                              Everyday excel CU Boulder part 1
+                                                              Coursera
