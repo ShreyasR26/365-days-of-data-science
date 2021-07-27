@@ -1,0 +1,26 @@
+                                                                     Excel part 7
+                                                                     
+                                                                Operation order:
+                                                                negation, ^ ,*,/,+,-
+                                                                
+                                                                -3^2 = 9 and not -9
+                                                         Formulas -> Formula auditing -> Evaluate Formula
+                                                         
+                                                         Excel functions:
+                                                         all excel functions start with '=',
+                                                         
+                                                         Note: All excel functions have '()', whether
+                                                         they have arguments or not.
+                                                         
+                                                         Eg: =NOW(), =TODAY() , =PI()
+                                                         
+                                                    Functions can operate on a single cell or a range of cells.
+                                                    =max(F1:F8) or sqrt(16)
+                                                    
+                                                    combin(4,2) gives total number of combinations, 4C2 = 6
+                                                    Counta -> counting categorical variables
+                                                    
+                                                    We can round up or even truncate functions.
+                                                    
+                                                    CHOOSE Function is used to map integers with corresponding values.
+                                                    
