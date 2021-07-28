@@ -1,0 +1,30 @@
+                                                                         Cleaning Data
+                                                                         
+                                                         Step 1: Keep copy of original data before formatting
+                                                         Step 2: Consistant format
+                                                                 Clear all cell formats
+                                                                 Cell Style: Normal
+                                                         Step 3: Find and select, check for constants, formulas etc.
+                                                         Find and Select, Go and Select, and deselect anything, ctrl+delete to delete selected.
+                                                         Step 4: Replacing blanks with 0
+                                                         Find and Select -> Go and Select ->blanks-> fill blanks with 0 and ctrl+enter.
+                                                         or use find and replace tool.
+                                                         
+                                                                        Removing Duplicates
+                                                                        
+                                                         Step 1: Finding Duplicates
+                                                         Conditional Formatting -> Highlight cell rules -> Select Duplicates
+                                                         
+                                                         Step 2: Removing Duplicates
+                                                         Data->Data Tools-> Remove Duplicates
+                                                         
+                                                                       One-way lookup functions
+                                                                       
+                                                              =VLOOKUP($H$3,data,2,FALSE)
+                                                              2 is column number in table.
+                                                              
+                                                              Use =INDEX and =MATCH as well.
+                                                              
+                                                              =XLOOKUP is a new function.
+                                                         
+                                                       
