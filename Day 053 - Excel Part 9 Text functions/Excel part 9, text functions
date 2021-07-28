@@ -1,0 +1,26 @@
+                                                                            Text Functions
+                                                                            
+                                                    =LEFT(B2,10) -> Takes first 10 letters of string
+                                                    =RIGHT(B2,10) -> Takes last 10 letters of string
+                                                    =MID(B2,20,5) -> Takes the first character after 20 characters and takes the next 5.
+                                                    =FIND("micro",B2) -> Find micro within the text.
+                                                    =SEARCH("Micro",B2) -> Search is similar to find, but it isn't case sensitive.
+                                                    =LEN(B2) -> Length of string
+                                                    =UPPER(B2) -> Takes text and makes it all uppercase
+                                                    =LOWER(B2) -> Takes text and makes it all lowercase
+                                                    =PROPER(B2) -> Takes text and makes first letter of word capital and others lowercase.
+                                                    
+                                                    To get First Name and Last Name,
+                                                    Example: Apple, Arnold
+                                                    
+                                                    Last name: =LEFT(A2,FIND(",",A2)-1)
+                                                    First name: =RIGHT(A2,LEN(A2)-FIND(",",A2)-1) #-1 because of space
+                                                    
+                                                    Concatenate functions:
+                                                    =CONCATENATE(A2,B2,C2,D2,E2)
+                                                    =CONCAT(A2:E2,"",A3:E3)
+                                                    =TEXTJOIN("",TRUE,A2:E2,A3:E3) -> ""-> delimiter, TRUE is for ignoring spaces.
+                                                    =& -> ="HELLO"&""&"THERE"
+                                                    =TRIM, removes unnessasary spaces
+                                                    =EXACT, determines whether 2 strings are exactly the same
+                                                    
