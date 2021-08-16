@@ -1,0 +1,16 @@
+                                                                                Bias Variance Trade off
+                                                                                
+                                                                Bias is how well the ML Model fits the training set.
+                                                                Variance is how well the ML Model performed on the training set, works on the test set.
+                                                                
+                                                                If all points are met with a straight line to fit the model, this will result in a high 
+                                                                bias as some points, are further away from the line. But this will have a low variance.
+                                                                
+                                                                If the points fall on a squiggly line, this will result in low bias as all points fall within
+                                                                the line. This will have a high variance.
+                                                                
+                                                                Ideal ML Models should have low bias and low variance.
+                                                                
+                                                                Source : Statquest: Bias Variance Trade off
+                                                                
+                                                                
