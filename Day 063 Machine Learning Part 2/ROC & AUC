@@ -1,0 +1,18 @@
+                                                                         Machine Learning part 2
+                                                                         
+                                                                         ROC and AUC
+
+ROC (Region of Convergence) shows True positive rate, it is used to find the best threshold in order to minimize false positives and negatives.
+
+True positive rate or sensitivity = True Positives / (True Positives + False Negatives)
+
+False positive rate or specificity = False Positives / (False Positives + True Negatives)
+
+In figure 63.2, (0,0) is the point of no false values, (1,1) is the point of all Sensitivity = Specificity
+
+AUC is used to compare multiple ROCs.
+
+Higher the AUC, better the ROC.
+
+Source: https://www.youtube.com/watch?v=nk2CQITm_eo&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=10
+Statquest ROC & AOC
