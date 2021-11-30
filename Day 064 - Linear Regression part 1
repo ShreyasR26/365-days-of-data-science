@@ -1,0 +1,27 @@
+                                                                         Linear Regression
+                                                                         
+  Predict mouse size using mouse weight.
+  
+  Take all the data points on a graph and draw a horizontal line between all the data points. Measure the distance between the points and the line, this distance is called the residual.
+  Fig 64.1 Residuals
+  
+  Now rotate the line to about 60 degrees, and measure the residuals and square and sum them.
+  
+  Now rotate the line again, and repeat the process.
+  
+  Now plot a graph for all the different sum of residuals and choose the lowest point in the data.
+  Fig 64.2 residuls plot.
+  
+  Take R2 and find sum of squares using least squared fit.
+  
+  SS(fit) = (data - line)^2
+  
+  Var(fit) = (data - line)^2/n
+  
+  R2 tells us how much variation in mouse size can be explained by taking mouse weight into account.
+  
+  R2 = (Var(mean) - Var(fit))/(Var(mean))
+  
+  R2 = 0.6 means there is a 60% reduction in variance of mouse size if we take mouse weight into account
+  
+  
