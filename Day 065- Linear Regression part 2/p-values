@@ -1,3 +1,7 @@
                                                                       p-values
                                                                       
                    F = Variation in mouse size explained by weight/ variation in mouse size not explained by weight
+
+                   F = (SS(mean) - SS(fit))/(pfit - pmean)/SS(fit)/(n-pfit)
+                   
+                   pfit - pmean = number of extra parameters 
