@@ -1,0 +1,50 @@
+                                                                           Decision Trees
+                                                                           
+              Decision tree is basically a yes-no question.
+              Classification here can be categorical or numberical
+              
+              Terminologies:
+              Root Node/Root: Nodes/ Decision points that have no arrows pointing towards them, but have arrows pointing away.
+              Nodes/Internal Nodes: Intermediate nodes have arrow pointing towards and away
+              Leaf Nodes: Arrow pointing towards but none pointing away
+              
+              Now, to predict whether a patient has heart disease.
+              
+              Dependent variable: Heart Disease
+              Independent variables : Chest pain, blood circulation, blocked arteries (all Yes/No)
+              
+              Now take all independent variables and classify with heart disease.
+              
+              Check Fig 69.3
+              Impurity:
+              Since none of the leaf nodes are 100% 'Yes' or 100% 'No', all leave are impure.
+              
+              We can use Gini Index to measure gini index
+              gini = 1-(probability of yes)^2 - (probability of no)^2
+              
+              Example: take chest pain
+              Leaf 1 : Heart disease: Yes  for  105, no for 39 -> 144
+              Leaf 2: Heart disease : Yes for 34, no for 125 -> 159
+              1 - (105/(105+39))^2 - (39/(105+39))^2 = 0.395
+              
+              Leaf 2 : 0.336
+              We take weighted averages to measure gini impurity to account in differences in sample sizes both leaves.
+              (144/(144+159))*0.395 + (159/(159+144))*0.336
+              = 0.364
+              
+              Therefore gini impurity for Chest pain is 0.364
+              
+              gini impurity for blood circulation: 0.36
+              gini impurity for blocked arteries : 0.381
+              
+              blood circulation has lowest impurity, so use that as root node
+              
+              Do this for each node
+              
+              Now try for weight vs heart disease
+              Separate using differnt weights (Fig 69.4 167.5,185,205 etc)
+              Find the least gini impurity (205)
+              
+              Now we know to calculate gini categorical and numeric data
+              
+              
