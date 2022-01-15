@@ -1,0 +1,17 @@
+                                                                            Random Forest 
+                                                                            
+                        For missing values,
+                        For categorical, take the mode.
+                        For numeric, take median/mean
+                        
+                        To refine these guesses, have a look at similarities.
+                        
+                        Step 1:
+                        Build a random forest
+                        
+                        Step 2:
+                        Build all of the data on all of the trees.
+                        Check a Proximity matrix after every tree.
+                        Have a look at the data ending up on the same leaf nodes.
+                        
+                        We can also use proximity matrix & MDS plot
