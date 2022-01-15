@@ -1,0 +1,21 @@
+                                                                             Random Forest
+                                                                             
+                              
+ Decision trees are good with the data it is used to train, but any additional data, it might not be as effective.
+ Step 1 for random forest:
+ Create a bootstrap dataset
+ Step 2:
+ Create a decision tree, but only take a few rows from the bootstrapped sample at each step also select a root node (column).
+ Take a random sub set of variables at each step and make the decision tree.
+ 
+ Step 3:
+ Repeat steps 1 and 2 100s of times.
+ 
+ Step 4:
+ Take a new row in the data set and run multiple decision tress for it. Which ever gives it the max number of predictions wins.
+ Bootstrapping the data + taking aggregate to make a decision is called bagging.
+ 
+ Out of Bag samples are the rows not used in training the data.
+ Out of Bag error is the accuracy of a random forest model.
+ 
+ 
