@@ -1,0 +1,16 @@
+                                                                              PCA
+                                                                              
+                           1. Used to identify patterns in data
+                           2. Detect correlation between variables
+                           
+                          Take a d-dimensional dataset on a k-dimensional subspace (k<d)
+                          
+                      PCA process
+                      1. Standardize data
+                      2. Obtain Eigen Values and Eigen vectors
+                      3. Sort Eigen values in decending order
+                      4. Construct projection vectors W
+                      5. Transform dataset
+                      
+                      PCA attempts to learn relationship b/w X & Y values
+                      
